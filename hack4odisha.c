@@ -86,15 +86,15 @@ void cal(struct node **st,int n)
    //this input is actually taken through the sensors few seconds before the signal is turned green
    scanf("%d",&(t1->east));
    d=t1->east;
-   if(d<10)
+   if(d<=10)
     time=20;
-   else if(d>10 && d<20)
+   else if(d>=10 && d<20)
     time=25;
-   else if(d>20 && d<30)
+   else if(d>=20 && d<30)
     time=30;
-   else if(d>30 && d<40)
+   else if(d>=30 && d<40)
     time=40;
-   else if(d>40 && d<50)
+   else if(d>=40 && d<50)
     time=50;
    else
     time=65;
@@ -105,15 +105,15 @@ void cal(struct node **st,int n)
    //this input is actually taken through the sensors few seconds before the signal is turned green
    scanf("%d",&(t1->south));
    d=t1->south;
-   if(d<10)
+   if(d<=10)
     time=20;
-   else if(d>10 && d<20)
+   else if(d>=10 && d<20)
     time=25;
-   else if(d>20 && d<30)
+   else if(d>=20 && d<30)
     time=30;
-   else if(d>30 && d<40)
+   else if(d>=30 && d<40)
     time=40;
-   else if(d>40 && d<50)
+   else if(d>=40 && d<50)
     time=50;
    else
     time=65;
@@ -124,15 +124,15 @@ void cal(struct node **st,int n)
    //this input is actually taken through the sensors few seconds before the signal is turned green
    scanf("%d",&(t1->west));
    d=t1->west;
-   if(d<10)
+   if(d<=10)
     time=20;
-   else if(d>10 && d<20)
+   else if(d>=10 && d<20)
     time=25;
-   else if(d>20 && d<30)
+   else if(d>=20 && d<30)
     time=30;
-   else if(d>30 && d<40)
+   else if(d>=30 && d<40)
     time=40;
-   else if(d>40 && d<50)
+   else if(d>=40 && d<50)
     time=50;
    else
     time=65;
@@ -143,15 +143,15 @@ void cal(struct node **st,int n)
    //this input is actually taken through the sensors few seconds before the signal is turned green
    scanf("%d",&(t1->north));
    d=t1->north;
-   if(d<10)
+   if(d<=10)
     time=20;
-   else if(d>10 && d<20)
+   else if(d>=10 && d<20)
     time=25;
-   else if(d>20 && d<30)
+   else if(d>=20 && d<30)
     time=30;
-   else if(d>30 && d<40)
+   else if(d>=30 && d<40)
     time=40;
-   else if(d>40 && d<50)
+   else if(d>=40 && d<50)
     time=50;
    else
     time=65;
